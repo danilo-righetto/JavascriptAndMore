@@ -7,9 +7,36 @@
     <script src="/js/vue.min.js"></script>
 </head>
 <body class="exercicio">
-
+    <div id="app">
+        <p>{{ link }}</p>
+        <p><a href="{{ link }}">Não funciona</a></p>
+        <!-- O conteudo dessa propriedade deve ser interpolado - renderizado -->
+        <p><a v-bind:href="link">Bind - Canal Cod3r Cursos</a></p>
+        <p><a :href="link">Bind de Forma Reduzida - Canal Cod3r Cursos</a></p>
+        <p>
+            <!-- Bind bi-direcional - v-model atualiza em duas direções -->
+            <input type="text" v-model="nome"><br>
+            <span>{{ nome }}</span><br><br>
+            <!-- Altera os dados em tempo real -->
+            <input type="text" v-model="sobrenome"><br>
+            <span>{{ sobrenome }}</span>
+        </p>
+    </div>
     <script>
-        // ...
+        new Vue({
+            el: "#app",
+            data: {
+                nome: "Maria",
+                sobrenome: "Oliveira",
+                link: "http://youtube.com/cod3rcursos"
+            },
+            watch: {
+                // Sempre que um dado especifico for modificado essa função sera chamada
+                nome(novoValor){
+                    console.log(novoValor.toUpperCase())
+                }
+            }
+        })
     </script>
 </body>
 </html>
