@@ -12,9 +12,18 @@
     </style>
 </head>
 <body class="exercicio">
-
+    <div id="app" @click="aplicarCor = !aplicarCor" :class="{vermelho: aplicarCor}">
+        <!-- Quando clicar na div "app" a div vai receber a negação da variavel "aplicarCor" -->
+        <!-- E o ":class" serve para setar uma classe CSS de acordo com uma condição -->
+        Teste
+    </div>
     <script>
-        // ...
+        new Vue({
+            el: "#app",
+            data: {
+                aplicarCor:false
+            }
+        })
     </script>
 </body>
 </html>
