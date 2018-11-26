@@ -7,9 +7,32 @@
     <script src="/js/vue.min.js"></script>
 </head>
 <body class="exercicio">
-
+    <div id="app">
+        <!-- Trabalhando com Componentes -->
+        <saudacao nome="Ana"></saudacao>
+        <saudacao nome="Bia"></saudacao>
+        <saudacao nome="Carlos"></saudacao>
+        <saudacao nome="Danilo"></saudacao>
+        <saudacao nome="Ester"></saudacao>
+    </div>
     <script>
-        // ...
+        Vue.component('saudacao',{
+            props: ['nome'],
+            // Sempre que trabalhar com dados nos componentes deve-se retornar uma função
+            data: function(){
+                return {
+                    countador: 0
+                }
+            },
+            // interpolação - back tip
+            template: `
+                <div>Bom dia {{nome}}!</div>
+            `
+        })
+        new Vue({
+            el: "#app",
+
+        })
     </script>
 </body>
 </html>
