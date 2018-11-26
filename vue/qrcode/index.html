@@ -13,7 +13,7 @@
     <div id="app">
         <h1>{{ title }}</h1>
         <div>
-            <input type="text" size="25" placeholder="Digite para gerar ...." :value="text" @input="onData">
+            <input type="text" size="25" placeholder="Digite para gerar ...." v-model="text">
         </div>
         <div v-if="text" class="output">
             <img :src="newQRCode" alt="QRCode">
@@ -36,9 +36,11 @@
             },
             methods: {
                 // Criar o QRCode a partir de um evento
-                onData(event) {
-                    this.text = event.target.value
-                }
+                // onData(event) {
+                //     this.text = event.target.value
+                // }
+
+                // "onData" se torna desnecessário
             }
         })
     </script>
