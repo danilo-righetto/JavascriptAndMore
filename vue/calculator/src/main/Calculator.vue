@@ -1,6 +1,6 @@
 <template>
     <div class="calculator">
-        <Display />
+        <Display value="1000" />
         <Button label="AC" triple />
         <Button label="/" operation />
         <Button label="7" />
@@ -26,7 +26,7 @@ import Button from "../components/Button"
 import Display from "../components/Display"
 
 export default {
-    components: { Button, Display }
+    components: { Button, Display },
 }
 </script>
 

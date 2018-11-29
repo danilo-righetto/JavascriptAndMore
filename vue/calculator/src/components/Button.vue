@@ -38,7 +38,7 @@ export default {
     grid-column: span 2;
 }
 
-.button.tiple {
+.button.triple {
     grid-column: span 3;
 }
 
