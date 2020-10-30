@@ -1,4 +1,27 @@
-# Curso: Web - Javascript React VueJS e muito mais
+<h1 align="center">
+    <img alt="Danilo Righetto" title="Danilo Righetto" src=".github/logo.svg" />
+</h1>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-fonte">Fonte</a>
+</p>
+
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
+
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Danilo Righetto" src=".github/logo.png" width="100%">
+</p>
+
+# 🔖 Curso: Web - Javascript React VueJS e muito mais
 
 - Aulas: 389
 - Vídeo: 59 horas
@@ -6,7 +29,6 @@
 - 9225 alunos
 - Idiomas: Português
 
----
 Seja muito bem vindo ao Curso Web Moderno com JavaScript! COMPLETO 2018 + Projetos!
 
 Nesse curso iremos abordar o desenvolvimento Web de ponta a ponta, para que você seja capaz de construir uma aplicação com as principais tecnologias do mercado. São tecnologias bastante atuais, usadas e aprovadas por grandes empresas.
@@ -19,13 +41,12 @@ Assista as aulas abertas e veja os comentários dos nosso alunos sobre a nossa d
 
 Grande abraço e bons estudos!
 
----
-
 ### Quais são os requisitos?
 
 - Conhecimento básico de Algoritmo
 
 ### Tudo que vc precisa saber para construir aplicações modernas para Web
+
 HTML, CSS, JavaScript, React, VueJS, Banco de Dados e muito mais
 Base sólida de Javascript com os novos recursos da linguagem
 Funções, Objetos, Array, Prototype, Clousure...
@@ -40,6 +61,7 @@ Programador de outras linguagens que desejam aprender Javascript
 Programadores em geral que desejam conhecer os fundamentos da linguagem
 
 ### Instrutor:
+
 - Leonardo Moura Leitao
 
 Leonardo Leitão é graduado em Engenharia Elétrica pela Universidade Federal do Ceará e Mestre em Informática Aplicada pela Universidade de Fortaleza, na qual trabalhou com Integração de Redes de Sensores sem Fio e Computação em Nuvem. Há doze anos atua na área como desenvolvedor de softwares e atualmente trabalha na DATAPREV como arquiteto, desenvolvendo sistemas para o INSS. Professor de desenvolvimento de software há quase dez anos, iniciou recentemente um projeto de ensinar programação à distância
@@ -53,6 +75,7 @@ Leonardo Leitão é graduado em Engenharia Elétrica pela Universidade Federal d
 - Seção 1 - Por que aprender Javascript
 
 ### Configuração do Ambiente
+
 - Seção 2 - Instalação Node (Windows/Mac)
 - Seção 2 - Configuração do Editor (VSCode)
 - Seção 2 - Configuração do Comando 'code'
@@ -509,5 +532,21 @@ Leonardo Leitão é graduado em Engenharia Elétrica pela Universidade Federal d
 - Seção 26 - Problema de Monty Hall #02
 - Seção 26 - Problema de Monty Hall #03
 - Seção 26 - Problema de Monty Hall #04
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+
+## 💻 Projeto
+
+O projeto visa o aprendizado de Javascript e os novos recursos do **ECMAScript 7** 💜
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## Fonte
 
 Link do Curso: [Udemy - Curso Web Moderno com JavaScript! COMPLETO 2018 + Projetos](https://www.udemy.com/curso-web/)
